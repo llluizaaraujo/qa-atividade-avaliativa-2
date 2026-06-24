@@ -19,3 +19,8 @@ Os seguintes problemas foram identificados nos endpoints da aplicação e docume
 
 ### 4. Configuração CI/CD (GitHub Actions)
 Um workflow do GitHub Actions foi configurado no arquivo `.github/workflows/tests.yml` para executar todos os testes automatizados a cada Pull Request para a branch `develop`. A rotina executa o setup completo de ambiente, instala dependências e executa o `php artisan test --coverage` com segurança de não necessitar interação do usuário (ex: a criação prévia do banco `database/database.sqlite` foi provisionada na pipeline).
+
+<img width="746" height="352" alt="Captura de tela 2026-06-24 095957" src="https://github.com/user-attachments/assets/dd05e2c8-52df-4069-8641-757dbc81f90c" />
+
+
+<img width="796" height="392" alt="Captura de tela 2026-06-24 095934" src="https://github.com/user-attachments/assets/258b8ad0-7339-49a5-9806-3e6da942abfb" />
